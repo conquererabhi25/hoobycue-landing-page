@@ -100,7 +100,7 @@ const SignInForm = () => {
         {isSignIn? (<Button className="btn btn-light btn-block buttonsignin" variant='outline-primary'>
           Continue 
         </Button>):(
-            <div>
+            <div className='agreebuttondiv'>
                 <button className="buttonAgree" >
          Agree and Continue 
         </button>

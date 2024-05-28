@@ -13,9 +13,12 @@ const BanerSection =()=>(
           Enjoy seamless access to all our premium features and stay
           updated with the latest news and events. Your journey towards an enriched experience starts here.  <br/>Join us today and unlock the full potential of our platform. Your satisfaction and engagement are our top priorities, and we can't wait to have you onboard. Sign up now and be part of something amazing!
         </p>
-         <img src={GroupImage}   alt="group" />  
+        <div className="SmSignup">
+            <SignInForm/>
         </div>
-        <div>
+         <img src={GroupImage}   alt="group"  className="groupImage"/>  
+        </div>
+        <div className="lgSignup">
             <SignInForm/>
         </div>
     </div>

@@ -100,3 +100,14 @@
   .listtext{
     font-size: small;
   }
+
+
+  @media (max-width:786px){
+    .socialMediaIMage{
+    width: 80vw;  
+    }
+
+    .inviteinput {
+      width: 60vw;
+    }
+  }

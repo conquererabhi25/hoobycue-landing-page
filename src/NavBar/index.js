@@ -4,7 +4,7 @@ import ExploreImg from "../Images/explore.png"
 import HobbyImg  from "../Images/Hobbies.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button } from "react-bootstrap";
-import { faBell, faBookBookmark, faBookmark, faCaretDown, faSearch, faShoppingCart} from '@fortawesome/free-solid-svg-icons';
+import { faBell, faBookBookmark, faBookmark, faCaretDown, faHamburger, faSearch, faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import './index.css'
 
 
@@ -42,6 +42,20 @@ const NavBarPage=()=>(
             </li>
             <li >
             <Button variant="outline-secondary">Sign In</Button>{' '}
+            </li>
+        </ul>
+
+        {/* Small Screen UL */}
+
+        <ul className="smallNavbar">
+            <li className="smallavList">
+                <FontAwesomeIcon icon={faSearch} color="blueviolet" className="navicons"/>
+            </li>
+            <li className="smallavList">
+                <FontAwesomeIcon icon={faBell} color="blueviolet" className="navicons"/>
+            </li>
+            <li className="smallavList">
+                <FontAwesomeIcon icon={faHamburger} color="blueviolet" className="navicons"/>
             </li>
         </ul>
     </div>

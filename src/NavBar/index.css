@@ -65,6 +65,75 @@
   flex-direction: row;
 }
 
+
+.smallNavbar{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbarUl {
+    display: none;
+  }
+
+
+
+  .searchBarContainer{
+    display: none;
+  }
+
+  .logoImage{
+    height: 5vh;
+    width: 40vw;
+  }
+
+  .smallNavbar{
+    list-style: none;
+    display: flex;
+
+  }
+
+  .smallavList{
+    margin: 10px;
+  }
+  
+
+}
+
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .navbarUl {
+      display: none;
+    }
+  
+  
+    .searchBarContainer{
+      display: none;
+    }
+
+    .navicons{
+      height: 20px;
+    }
+  
+    .logoImage{
+      height: 3vh;
+      width: 20vw;
+    }
+  
+    .smallNavbar{
+      list-style: none;
+      display: flex;
+  
+    }
+  
+    .smallavList{
+      margin: 10px;
+      height: 20px;
+    }
+    
+  
+  }
+
+
 .liststyling{
     display: flex;
     flex-direction: row;

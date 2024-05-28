@@ -4,8 +4,33 @@
   display: flex;
   flex-direction: row;
   background: #F7F5F9;
+  
+
+}
 
 
+
+
+@media (max-width:768px) {
+  .groupImage{
+    width: 80vw;
+    margin-top: 25px;
+  }
+}
+
+.SmSignup{
+  display: none;
+}
+
+@media (max-width:786px){
+  
+}
+
+
+@media (max-width:786px) {
+  .lgSignup{
+    display: none;
+  }
 }
 
 .BanerSection {
@@ -17,6 +42,17 @@
   margin: 40px;
 }
 
+@media (max-width:768px) {
+  .BanerSection{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
 .banerHeading {
   font-size: 36px;
   font-style: italic;
@@ -24,6 +60,12 @@
   line-height: 54px;
   font-weight: 500;
   letter-spacing: 2%;
+}
+
+@media (max-width:768px) {
+  .banerHeading{
+    font-size: 22px;
+  }
 }
 
 .colorspan1 {
@@ -37,4 +79,43 @@
 
 .para{
     gap: 12px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .mainContainer{
+    flex-direction: column;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .banerHeading{
+    margin-top: 5vh;
+  }
+
+  .SmSignup{
+    display: block;
+  }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+
+  .sign-in-body {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-bottom: 10vh;
+}
+
+.mainContainer{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }

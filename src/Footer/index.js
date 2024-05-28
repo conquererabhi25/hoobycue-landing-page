@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className="footer-column social-media">
         <p className='footerPara'>Social Media</p>
-          <img src={SocialMediaImage} alt="socialMedia"/>
+          <img src={SocialMediaImage} alt="socialMedia" className='socialMediaIMage'/>
 
           <div className="invite-friends">
           <p className='footerPara'>Invite Friends</p>

@@ -9,7 +9,7 @@ const AddYour =()=>(
         <div className="add-card">
         <div className="headingdiv">
         <img src={addImage} alt="people" className='headingImage'/>
-        <p>Add Your Own</p>
+        <p className="addHeading">Add Your Own</p>
         </div>
         <p >Find a class, school, playground, auditorium, studio, shop or an event venue. Book a slot at venues that allow booking through hot
         Find a class, school, playground, auditorium, studio, shop or an event venue.
