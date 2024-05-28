@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="invite-friends">
           <p className='footerPara'>Invite Friends</p>
            <div>
-           <input type="email" placeholder="Email ID" />
+           <input type="email" placeholder="Email ID" className='inviteinput'/>
             <button>Invite</button>
            </div>
           </div>
