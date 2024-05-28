@@ -12,7 +12,6 @@
 
 .searchBarContainer{
     display: flex;
-
 }
 
 .SearchBar {
@@ -61,7 +60,6 @@
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   margin-top: 15px;
   display: flex;
   flex-direction: row;

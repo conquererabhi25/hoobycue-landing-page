@@ -5,12 +5,13 @@ import AddYour from "../AddYourPage"
 import Testimonial from "../Testimonial"
 import EndSection from "../EndSection"
 import Footer from "../Footer"
+import "./index.css"
 
 
 const HomeSection =()=>(
 
 
-    <div>
+    <div className="homesection">
         <NavBarPage/>
         <BanerSection/>
         <Features/>

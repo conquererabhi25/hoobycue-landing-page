@@ -4,7 +4,6 @@
   top: 103px;
   left: 930px;
   gap: 32px;
-  opacity: 0px;
   margin-left: 5vw;
   margin-top: 40px;
 }
@@ -46,7 +45,6 @@
   left: 124px;
   gap: 0px;
   border-radius: 2px 0px 0px 0px;
-  opacity: 0px;
   background-color: rgb(200, 197, 197);
   margin-right: 5px;
 }
@@ -120,7 +118,7 @@
   height: 1px;
 }
 
-.divider span::before,
+
 .divider span::after {
   content: "";
   flex-grow: 1;
