@@ -103,11 +103,24 @@
 
 
   @media (max-width:786px){
-    .socialMediaIMage{
-    width: 80vw;  
-    }
+  .inviteinput{
+    width: 50vw;
+  }
+  }
 
-    .inviteinput {
-      width: 50vw;
-    }
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .socialMediaIMage{
+      width: 80vw;  
+      }
+  
+      .inviteinput {
+        width: 50vw;
+      }
+
+      .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
   }

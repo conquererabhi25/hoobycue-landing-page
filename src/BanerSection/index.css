@@ -77,10 +77,20 @@
     margin-bottom: 10vh;
   }
 
+  .lgSignup{
+    width: 70vw;
+  }
+
+  
+
   .mainContainer {
     height: auto;
     display: flex;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .BanerSection {
