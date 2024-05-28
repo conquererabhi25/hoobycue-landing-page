@@ -1,36 +1,10 @@
+/* Base styles */
 .mainContainer {
   top: 86px;
   gap: 0px;
   display: flex;
   flex-direction: row;
   background: #F7F5F9;
-  
-
-}
-
-
-
-
-@media (max-width:768px) {
-  .groupImage{
-    width: 80vw;
-    margin-top: 25px;
-  }
-}
-
-.SmSignup{
-  display: none;
-}
-
-@media (max-width:786px){
-  
-}
-
-
-@media (max-width:786px) {
-  .lgSignup{
-    display: none;
-  }
 }
 
 .BanerSection {
@@ -42,17 +16,6 @@
   margin: 40px;
 }
 
-@media (max-width:768px) {
-  .BanerSection{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-  }
-}
-
 .banerHeading {
   font-size: 36px;
   font-style: italic;
@@ -60,12 +23,6 @@
   line-height: 54px;
   font-weight: 500;
   letter-spacing: 2%;
-}
-
-@media (max-width:768px) {
-  .banerHeading{
-    font-size: 22px;
-  }
 }
 
 .colorspan1 {
@@ -76,46 +33,80 @@
   color: rgb(18, 18, 120);
 }
 
-
-.para{
-    gap: 12px;
+.para {
+  gap: 12px;
 }
 
+.SmSignup {
+  display: none;
+}
 
-
+/* Media query for small screens (up to 600px) */
 @media screen and (max-width: 600px) {
-  .mainContainer{
+  .mainContainer {
     flex-direction: column;
-    height: 130vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 20px; /* Add padding to avoid overlap */
   }
-  .banerHeading{
+
+  .BanerSection {
+    width: 90vw;
+    margin: 20px 0; /* Add margin to avoid overlap */
+    height: auto; /* Adjust height to fit content */
+  }
+
+  .banerHeading {
+    font-size: 22px;
     margin-top: 5vh;
   }
 
-  .SmSignup{
+  .SmSignup {
     display: block;
   }
 }
 
-
+/* Media query for medium screens (601px to 1024px) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
- 
-
   .sign-in-body {
     display: flex;
     flex-direction: column;
     width: 50vw;
     margin-bottom: 10vh;
+  }
+
+  .mainContainer {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .BanerSection {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Add margin to avoid overlap */
+  }
+
+  .banerHeading {
+    font-size: 22px;
+  }
 }
 
-.mainContainer{
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
+/* Additional media queries */
+@media (max-width: 768px) {
+  .groupImage {
+    width: 80vw;
+    margin-top: 25px;
+  }
 }
 
+@media (max-width: 786px) {
+  .lgSignup {
+    display: none;
+  }
 }
