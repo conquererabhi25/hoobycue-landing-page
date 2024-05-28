@@ -1,0 +1,185 @@
+/* App.css */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+    width: 60vw;
+  }
+  
+  .card1 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    width: 60vw;
+  }
+
+  .card1 {
+    /* ... */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card1:hover {
+    background-color: #8064A2; /* Change the background color on hover */
+    color: white;
+  }
+
+  /* Card 2 */
+
+  .card2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 50vw;
+  }
+
+  .card2 {
+    /* ... */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card2:hover {
+    background-color: #77933C; /* Change the background color on hover */
+    color: white;
+  }
+  
+
+  /* Card 3 */
+
+  .card3 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 50vw;
+  }
+
+  .card3 {
+    /* ... */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card3:hover {
+    background-color: #C0504D; /* Change the background color on hover */
+    color: #ffffff;
+  }
+  
+
+  /* card 4 */
+
+
+  .card4 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 50vw;
+  }
+
+  .card4 {
+    /* ... */
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card4:hover {
+    background-color: #0096C8; /* Change the background color on hover */
+    color: #ffffff;
+
+  }
+
+
+  .card-para{
+    color: rgb(53, 52, 52);
+  }
+
+  .card-para:hover{
+    color: white;
+  }
+  
+  
+
+  .headingDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .headingImage{
+    height: 30px;
+    width: 35px;
+    margin-right: 10px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 100px;
+  }
+
+  .card-content {
+    padding: 20px;
+    text-align: left;
+    
+  }
+
+
+  
+  .icon {
+    font-size: 48px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .connect-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .connect-button:hover{
+    background-color: #8064A2;
+    color: white;
+  }
+  
+  .highlight {
+    color: #dc3545;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+  }
+
+
+
+  .connect-button{
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

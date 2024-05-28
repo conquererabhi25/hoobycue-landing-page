@@ -1,0 +1,106 @@
+.navbarContainer {
+  display: flex;
+  width: 100vw;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: blue;
+}
+
+.searchBarContainer{
+    display: flex;
+
+}
+
+.SearchBar {
+  width: 250px;
+  height: 30px;
+  top: 20px;
+  left: 425px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  outline: none;
+  border: 1px solid rgb(185, 184, 184);
+  padding: 10px;
+}
+
+.searchButton {
+  background-color: #8064a2;
+  color: white;
+  border-color: none;
+  width: 30px;
+  height: 30px;
+  top: 20px;
+  left: px;
+  gap: 0px;
+  border-radius: 0px 8px 8px 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  width: 293.26px;
+  height: 60px;
+  top: 10px;
+  left: 97px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.navbarUl {
+  list-style: none;
+  width: 525px;
+  height: 40px;
+  top: 20px;
+  left: 815px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.liststyling{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.navimages{
+    size: 14px;
+top: 28px;
+left: 815px;
+padding: 2.04px 0px 0px 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.textStyle{
+    font-family: Poppins;
+    font-weight: 500;
+    size: 14px;
+    line-height: 22px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.icondropdown{
+    margin-top:3px;
+}
+
+
+.signiinbutton{
+    color: #8064a2;
+}

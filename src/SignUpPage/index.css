@@ -1,0 +1,160 @@
+.sign-in-container {
+  width: 25vw;
+  height: Hug (434px) px;
+  top: 103px;
+  left: 930px;
+  gap: 32px;
+  opacity: 0px;
+  margin-left: 5vw;
+  margin-top: 40px;
+}
+
+.signinbutton {
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  color: #2a1d39;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signinbutton.active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.displaydiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.blockdiv {
+  display: none;
+}
+
+.password-str-div {
+  display: flex;
+  align-items: center;
+}
+.passwordDiv {
+  width: 40px;
+  height: 2px;
+  top: 50px;
+  left: 124px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  background-color: rgb(200, 197, 197);
+  margin-right: 5px;
+}
+
+.passwordname{
+    font-size: 12px;
+    font-weight: 500;
+}
+/* Add any other CSS rules you have */
+
+.sign-in-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-in-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 15vw;
+}
+
+.sign-in-header h5 {
+  margin: 0;
+}
+
+.connect-text {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.inputElement {
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.signIcons {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.buttonsignin {
+  margin-bottom: 12px;
+}
+
+.signfacebookIcons {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider span {
+  flex-grow: 1;
+  border-bottom: 1px solid #ccc;
+  height: 1px;
+}
+
+.divider span::before,
+.divider span::after {
+  content: "";
+  flex-grow: 1;
+  background: #ccc;
+  height: 1px;
+}
+
+.divider span::before {
+  margin-right: 10px;
+}
+
+.divider span::after {
+  margin-left: 10px;
+}
+
+.forgot-password {
+  float: right;
+  font-size: 14px;
+}
+
+.form-check {
+  margin-bottom: 12px;
+}
+
+.forgot-password-icon {
+  margin-right: 5px;
+}
+
+
+.buttonAgree{
+    width: 25vw;
+    color: #ffffff;
+    background-color:#8064a2 ;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
