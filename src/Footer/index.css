@@ -104,8 +104,13 @@
 
   @media (max-width:786px){
   .inviteinput{
-    width: 50vw;
+    width: 80vw;
   }
+
+  .socialMediaIMage{
+    width: 60vw;
+  }
+
   }
 
 
